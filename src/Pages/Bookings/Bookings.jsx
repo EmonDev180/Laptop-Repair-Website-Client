@@ -1,5 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
+
 import BookingRow from "./BookingRow";
 import axios from "axios";
 
@@ -12,30 +13,26 @@ const Bookings = () => {
     const [bookings, setBookings] = useState([])
 
 
-    const url = `http://localhost:5000/bookings?email=${user?.email}`
+    const url = `https://car-doctor-server-eta-plum.vercel.app/bookings?email=${user?.email}`
     useEffect(() => {
 
-        // fetch(url)
-        //     .then(res => res.json())
-        //     .then(data => {
-        //         setBookings(data)
-        //     })
 
         axios.get(url,{withCredentials:true})
+
         .then(res => {
 
             setBookings(res.data)
         })
 
 
-    }, []);
+    }, [url]);
 
     const handleDelete = id => {
 
         const proceed = confirm('Are you you want to delete ');
 
         if(proceed){
-            fetch(`http://localhost:5000/bookings/${id}`,{
+            fetch(`https://car-doctor-server-eta-plum.vercel.app/bookings/${id}`,{
                 method:'DELETE'
             })
           
@@ -56,7 +53,7 @@ const Bookings = () => {
 
     const handleConfirm = id => {
 
-        fetch(`http://localhost:5000/bookings/${id}`,{
+        fetch(`https://car-doctor-server-eta-plum.vercel.app/bookings/${id}`,{
             method:'PATCH',
 
             headers : {
@@ -88,8 +85,9 @@ const Bookings = () => {
     console.log(bookings)
     return (
         <div>
+          
             <h2>Booking:{bookings.length}</h2>
-
+            
             <div className="overflow-x-auto">
                 <table className="table">
                     {/* head */}
@@ -101,6 +99,7 @@ const Bookings = () => {
                                 </label>
                             </th>
                             <th>Image</th>
+                            <th>Email</th>
                             <th>Service</th>
                             <th>Date</th>
                             <th>Status</th>

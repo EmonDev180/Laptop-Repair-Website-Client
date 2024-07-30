@@ -1,6 +1,6 @@
 
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import img   from '../../assets/images/login/login.svg'
+import img from '../../assets/login/login.svg'
 import { useContext } from 'react';
 import { AuthContext } from '../../Provider/AuthProvider';
 import axios from 'axios';
@@ -40,7 +40,10 @@ const Login = () => {
             
 
             //get access token 
-            axios.post('http://localhost:5000/jwt',user,{withCredentials:true})
+            axios.post('https://car-doctor-server-eta-plum.vercel.app/jwt',user,{
+                withCredentials:true
+             
+            })
             .then(res => {
 
                 console.log(res.data)

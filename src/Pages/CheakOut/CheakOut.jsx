@@ -37,11 +37,10 @@ const CheakOut = () => {
 
         console.log(booking);
 
-        fetch('http://localhost:5000/bookings',{
+        fetch('https://car-doctor-server-eta-plum.vercel.app/bookings',{
             method:"POST",
             headers : {
                 'content-type' : 'application/json'
-
             },
             body:JSON.stringify(booking)
         })
@@ -90,7 +89,7 @@ const CheakOut = () => {
                     <label className="label">
                         <span className="label-text">Due amount</span>
                     </label>
-                    <input type="password" defaultValue={'$' + price} className="input input-bordered" required />
+                    <input type="text" defaultValue={'$' + price} className="input input-bordered" required />
 
                 </div>
                 <div className="form-control mt-6">

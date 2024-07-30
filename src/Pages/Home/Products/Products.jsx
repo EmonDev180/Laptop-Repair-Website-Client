@@ -7,7 +7,7 @@ const Products = () => {
 
     useEffect(()=> {
 
-        fetch('products.json')
+        fetch('https://car-doctor-server-eta-plum.vercel.app/products')
         .then(res => res.json())
         .then(data => setProducts(data))
 

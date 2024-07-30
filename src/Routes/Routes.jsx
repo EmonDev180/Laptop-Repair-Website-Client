@@ -7,6 +7,7 @@ import Signup from '../Pages/Signup/Signup';
 import CheakOut from '../Pages/CheakOut/CheakOut';
 import Bookings from '../Pages/Bookings/Bookings';
 import PrivetRoute from '../PrivetRoute/PrivetRoute';
+import AboutPage from '../Pages/aboutPage/aboutPage';
 
 const router = createBrowserRouter ([
 
@@ -19,6 +20,11 @@ const router = createBrowserRouter ([
                 element:<Home></Home>
             },
             {
+                path:'/about',
+                element:<AboutPage></AboutPage>
+
+            },
+            {
                 path:"/login",
                 element:<Login></Login>
             },
@@ -29,7 +35,7 @@ const router = createBrowserRouter ([
             {
                 path:'/cheakout/:id',
                 element:<PrivetRoute><CheakOut></CheakOut></PrivetRoute>,
-                loader: ({params}) => fetch(`http://localhost:5000/services/${params.id}`)
+                loader: ({params}) => fetch(`https://car-doctor-server-eta-plum.vercel.app/services/${params.id}`)
             
             },
             {

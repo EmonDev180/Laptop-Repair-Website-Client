@@ -1,158 +1,57 @@
 [
-    {
-        
-        "service_id": "04",
-        "title": "Engine Oil Change",
-        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    },
-    {
-        
-        "service_id": "05",
-        "title": "Battery Charge",
-        "img": "https://i.ibb.co/ydCbDN3/5555.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    },
-    {
-        
-        "service_id": "01",
-        "title": "Full car Repair",
-        "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
-        "price": "200.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    },
-    {
-        
-        "service_id": "02",
-        "title": "Engine Repair",
-        "img": "https://i.ibb.co/5MvmD2g/88.jpg",
+   
+      {
+        "title": "Virus Removal",
+        "img": "https://i.ibb.co/njzrWvD/img11.jpg",
+        "price": "50.00",
+        "description": "Remove viruses, malware, and spyware from your computer, ensuring your data remains safe."
+      },
+      {
+        "title": "Data Recovery",
+        "img": "https://i.ibb.co/zSysBxg/img12.jpg",
+        "price": "100.00",
+        "description": "Recover lost or deleted data from hard drives, USB drives, and other storage devices."
+      },
+      {
+        "title": "Hardware Upgrade",
+        "img": "https://i.ibb.co/bPQsqdL/img13.jpg",
+        "price": "75.00",
+        "description": "Upgrade your computer's hardware for better performance and faster speeds."
+      },
+      {
+        "title": "Screen Replacement",
+        "img": "https://i.ibb.co/P488Nvt/img10.jpg",
         "price": "150.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    },
-    {
-        
-        "service_id": "03",
-        "title": "Automatic Services",
-        "img": "https://i.ibb.co/wh7t3N3/555.jpg",
+        "description": "Replace broken or damaged screens on laptops and desktops."
+      },
+      {
+        "title": "Software Installation",
+        "img": "https://i.ibb.co/zPw8VcF/software-application-programming-developer-technology-concept-53876-120917.jpg",
         "price": "30.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    },
-    {
-        
-        "service_id": "06",
-        "title": "Electrical System",
-        "img": "https://i.ibb.co/KzCG8qr/8888.jpg",
-        "price": "20.00",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
-            {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            },
-            {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
-            }
-        ]
-    }
+        "description": "Install new software, update existing programs, and ensure your system runs smoothly."
+      },
+      {
+        "title": "Custom PC Build",
+        "img": "https://i.ibb.co/4WVhsfL/young-man-soldering-computer-circuit-wooden-desk-23-2147922188.jpg",
+        "price": "200.00",
+        "description": "Get a custom-built PC tailored to your specific needs and preferences."
+      },
+      {
+        "title": "Network Setup",
+        "img": "https://i.ibb.co/12vbLt0/young-network-engineer-working-server-room-23-2148323441.jpg",
+        "price": "60.00",
+        "description": "Set up and configure your home or office network for optimal performance."
+      },
+      {
+        "title": "Laptop Battery Replacement",
+        "img": "https://i.ibb.co/wJXKWqq/man-repairs-laptop-by-himself-computer-repair-563818-2573.jpg",
+        "price": "40.00",
+        "description": "Replace old or faulty laptop batteries to extend your device's battery life."
+      },
+      {
+        "title": "Operating System Installation",
+        "img": "https://i.ibb.co/wr2nYBb/landing-page-website-setup-concept-23-2148303742.jpg",
+        "price": "70.00",
+        "description": "Install or upgrade your operating system to the latest version for improved security and features."
+      }
 ]

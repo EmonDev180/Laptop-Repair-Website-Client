@@ -6,9 +6,9 @@ const ProductCard = ({ product }) => {
 
         <div className="card-body">
 
-            <div className="card w-96 bg-gray-100">
+            <div className="card w-96 ">
                 <figure className="px-10 pt-10">
-                    <img src={img} alt="Shoes" className="rounded-xl" />
+                    <img src={img} alt="" className="" />
                 </figure>
 
             </div>
